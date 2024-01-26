@@ -165,3 +165,54 @@ footer span {
   color: #45610e;
   font-size: 14px;
 }
+
+/********* MEDIA QUERIES ********/
+@media all and (min-width: 768px) {
+  /* Tablet styles here */
+  .bottom-section .content-wrapper {
+    justify-content: space-evenly;
+  }
+
+  .section-one {
+    width: 30%;
+  }
+
+  .section-two {
+    width: 40%;
+    padding: 0 30px;
+  }
+
+  .section-three {
+    width: 30%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  /* Desktop styles here */
+  /* Global Styles */
+  body {
+    font-size: 1em;
+  }
+
+  header .content-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  header h1 {
+    width: 30%;
+    padding: 0;
+    border-bottom: none;
+    text-align: left;
+  }
+
+  header nav {
+    width: 21%;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
